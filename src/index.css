@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+@plugin "daisyui" {
+  themes: dim --default, dim --prefersdark, cyberpunk, retro, valentine, coffee,
+    synthwave, aqua, dracula, business, lemonade, nord, sunset, caramellatte,
+    silk, forest, garden, halloween, autumn, night, dark;
+}
+@plugin "daisyui/theme" {
+  name: 'dim';
+  default: true;
+  prefersdark: true;
+  --depth: 0;
+  --noise: 0;
+  --gloss: 0;
+}
