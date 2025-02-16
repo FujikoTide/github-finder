@@ -13,7 +13,7 @@ function Navbar({ title = 'Github Finder' }) {
           </Link>
         </div>
         <div className='flex-1 px-2 mx-2'>
-          <div className='flex justify-end'>
+          <div className='flex justify-end items-center'>
             <div className='dropdown'>
               <div tabIndex={0} role='button' className='btn m-1'>
                 Theme
@@ -162,15 +162,6 @@ function Navbar({ title = 'Github Finder' }) {
                     type='radio'
                     name='theme-dropdown'
                     className='theme-controller btn btn-sm btn-block btn-ghost justify-start'
-                    aria-label='Caramellatte'
-                    value='caramellatte'
-                  />
-                </li>
-                <li>
-                  <input
-                    type='radio'
-                    name='theme-dropdown'
-                    className='theme-controller btn btn-sm btn-block btn-ghost justify-start'
                     aria-label='Garden'
                     value='garden'
                   />
@@ -213,10 +204,13 @@ function Navbar({ title = 'Github Finder' }) {
                 </li>
               </ul>
             </div>
-            <Link to='/' className='btn btn-ghost btn-lg rounded-btn'>
+            <Link to='/' className='btn btn-ghost btn-md rounded-btn uppercase'>
               Home
             </Link>
-            <Link to='/about' className='btn btn-ghost btn-lg rounded-btn'>
+            <Link
+              to='/about'
+              className='btn btn-ghost btn-md rounded-btn uppercase'
+            >
               About
             </Link>
           </div>

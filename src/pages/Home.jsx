@@ -1,9 +1,12 @@
+import UserResults from '../components/users/UserResults'
+import UserSearch from '../components/users/UserSearch'
+
 function Home() {
   return (
-    <div>
-      <h1 className='text-6xl'>Welcome</h1>
-      {/* {import.meta.env.VITE_GITHUB_FINDER_APP_TOKEN} */}
-    </div>
+    <>
+      <UserSearch />
+      <UserResults />
+    </>
   )
 }
 export default Home
