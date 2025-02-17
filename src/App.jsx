@@ -4,7 +4,7 @@ import About from './pages/About'
 import NotFound from './pages/NotFound'
 import User from './pages/User'
 
-import Navbar from './components/layout/navbar'
+import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 import Alert from './components/layout/Alert'
 
